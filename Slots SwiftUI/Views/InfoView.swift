@@ -74,7 +74,7 @@ struct InfoView: View {
 
         }
         .onAppear {
-            playSound(sound: "background-music", type: "mp3")
+            //playSound(sound: "background-music", type: "mp3")
         }
         
     }

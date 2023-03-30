@@ -15,6 +15,11 @@
 		641C708A27A874CE003C53ED /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641C708927A874CE003C53ED /* SoundPlayer.swift */; };
 		6466A05C27A54F7000D6AF32 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6466A05B27A54F7000D6AF32 /* InfoView.swift */; };
 		64834A8C27A80A87004B34BA /* SlotsLogicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64834A8B27A80A87004B34BA /* SlotsLogicManager.swift */; };
+		64B08B2529D59D7C002434D4 /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 64B08B2029D59D7B002434D4 /* 2.PNG */; };
+		64B08B2629D59D7C002434D4 /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 64B08B2129D59D7B002434D4 /* 1.PNG */; };
+		64B08B2729D59D7C002434D4 /* 4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 64B08B2229D59D7B002434D4 /* 4.PNG */; };
+		64B08B2829D59D7C002434D4 /* 3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 64B08B2329D59D7B002434D4 /* 3.PNG */; };
+		64B08B2929D59D7C002434D4 /* vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 64B08B2429D59D7C002434D4 /* vid.mp4 */; };
 		64CC646727A524930008A9CE /* Slots_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC646627A524930008A9CE /* Slots_SwiftUIApp.swift */; };
 		64CC646927A524930008A9CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC646827A524930008A9CE /* ContentView.swift */; };
 		64CC646B27A524940008A9CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CC646A27A524940008A9CE /* Assets.xcassets */; };
@@ -46,6 +51,12 @@
 		641C708C27A879DF003C53ED /* Slots SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Slots SwiftUI.entitlements"; sourceTree = "<group>"; };
 		6466A05B27A54F7000D6AF32 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		64834A8B27A80A87004B34BA /* SlotsLogicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotsLogicManager.swift; sourceTree = "<group>"; };
+		64B08B1F29D59C58002434D4 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		64B08B2029D59D7B002434D4 /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
+		64B08B2129D59D7B002434D4 /* 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.PNG; sourceTree = "<group>"; };
+		64B08B2229D59D7B002434D4 /* 4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.PNG; sourceTree = "<group>"; };
+		64B08B2329D59D7B002434D4 /* 3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.PNG; sourceTree = "<group>"; };
+		64B08B2429D59D7C002434D4 /* vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vid.mp4; sourceTree = "<group>"; };
 		64CC646327A524930008A9CE /* Slots SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slots SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CC646627A524930008A9CE /* Slots_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slots_SwiftUIApp.swift; sourceTree = "<group>"; };
 		64CC646827A524930008A9CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,9 +97,23 @@
 			path = "View Model";
 			sourceTree = "<group>";
 		};
+		64B08B1E29D59A48002434D4 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				64B08B2129D59D7B002434D4 /* 1.PNG */,
+				64B08B2029D59D7B002434D4 /* 2.PNG */,
+				64B08B2329D59D7B002434D4 /* 3.PNG */,
+				64B08B2229D59D7B002434D4 /* 4.PNG */,
+				64B08B2429D59D7C002434D4 /* vid.mp4 */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
 		64CC645A27A524930008A9CE = {
 			isa = PBXGroup;
 			children = (
+				64B08B1F29D59C58002434D4 /* readme.md */,
+				64B08B1E29D59A48002434D4 /* Documentation */,
 				64CC646527A524930008A9CE /* Slots SwiftUI */,
 				64CC646427A524930008A9CE /* Products */,
 			);
@@ -244,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				64CC648327A5290D0008A9CE /* riseup.mp3 in Resources */,
+				64B08B2629D59D7C002434D4 /* 1.PNG in Resources */,
+				64B08B2929D59D7C002434D4 /* vid.mp4 in Resources */,
 				64CC648227A5290D0008A9CE /* background-music.mp3 in Resources */,
 				64CC646E27A524940008A9CE /* Preview Assets.xcassets in Resources */,
 				64CC647F27A5290D0008A9CE /* game-over.mp3 in Resources */,
@@ -251,8 +278,11 @@
 				64CC647E27A5290D0008A9CE /* high-score.mp3 in Resources */,
 				64CC648D27A52A170008A9CE /* Launch Screen.storyboard in Resources */,
 				64CC648027A5290D0008A9CE /* win.mp3 in Resources */,
+				64B08B2529D59D7C002434D4 /* 2.PNG in Resources */,
 				64CC646B27A524940008A9CE /* Assets.xcassets in Resources */,
+				64B08B2829D59D7C002434D4 /* 3.PNG in Resources */,
 				64CC647D27A5290D0008A9CE /* spin.mp3 in Resources */,
+				64B08B2729D59D7C002434D4 /* 4.PNG in Resources */,
 				64CC648427A5290D0008A9CE /* casino-chips.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
